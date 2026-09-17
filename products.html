@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse North Star Bakery breads, pastries, and celebration cakes.">
+  <title>North Star Bakery | Products</title><link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="brand wrap"><img class="logo" src="media/bakery-logo.png" alt="North Star Bakery star and wheat logo"><div><p class="eyebrow">Handmade locally</p><h1>Our Bakery Products</h1></div></div><nav aria-label="Main navigation"><ul class="nav-list wrap"><li><a href="index.html">Home</a></li><li><a class="active" aria-current="page" href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
+  <main class="wrap page-main">
+    <section class="page-intro"><p class="eyebrow">Made in small batches</p><h2>Something fresh for every occasion</h2><p>Choose an everyday favorite or contact us about a custom celebration order.</p></section>
+    <div class="product-grid">
+      <section class="card product"><img src="media/bakery-bread.jpg" alt="Fresh artisan bread baked at North Star Bakery"><div><h2>Breads</h2><p>Simple ingredients, careful preparation, and a crisp golden crust.</p><ul><li>Artisan loaves: $6–$10</li><li>Sourdough: $7–$12</li><li>Dinner rolls: $5–$9</li></ul></div></section>
+      <section class="card product"><div class="pastry-art" role="img" aria-label="Decorative illustration of bakery pastries">🥐</div><div><h2>Pastries</h2><p>Rotating croissants, muffins, danishes, and seasonal pastries.</p><p><strong>$3–$7 each</strong></p></div></section>
+      <section class="card product"><div class="pastry-art" role="img" aria-label="Decorative illustration of a celebration cake">🎂</div><div><h2>Cakes</h2><p>Custom cakes for birthdays, family gatherings, and work events.</p><p><strong>$30–$85</strong>, based on size and design.</p></div></section>
+    </div>
+    <section class="favorite-feature card" aria-labelledby="favorite-heading">
+      <p class="eyebrow">Remember your favorite</p><h2 id="favorite-heading">Save a Bakery Favorite</h2>
+      <p>Choose an item below. North Star Bakery will remember your choice when you return.</p>
+      <div class="favorite-actions">
+        <button type="button" class="favorite-button" data-item="bread" aria-pressed="false">Save Breads</button>
+        <button type="button" class="favorite-button" data-item="pastries" aria-pressed="false">Save Pastries</button>
+        <button type="button" class="favorite-button" data-item="cakes" aria-pressed="false">Save Cakes</button>
+      </div>
+      <p id="favorite-result" class="favorite-result" aria-live="polite">Choose a favorite to save it for your next visit.</p>
+    </section>
+    <section class="signature">
+      <figure><img src="media/bakery-signature-loaf.jpg" alt="North Star Bakery signature artisan loaf with a golden baked crust"><figcaption>Our Signature Loaf is handmade and baked fresh for local customers.</figcaption></figure>
+      <div><p class="eyebrow">Bakery favorite</p><h2>The Signature Loaf</h2><p>A balanced crust, soft center, and small-batch care make this our community favorite.</p><a class="button" href="contact.html">Start a preorder</a></div>
+    </section>
+  </main>
+  <footer><p class="wrap">&copy; 2026 North Star Bakery. Handmade for our community.</p></footer>
+</body></html>
